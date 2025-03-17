@@ -63,6 +63,14 @@ body {
 
 .notes__note {
   width: calc(25% - 2rem);
+  opacity: 0;
+  transform: scale(0);
+  transition: all 300ms linear;
+}
+
+.note--visible {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .note__header {

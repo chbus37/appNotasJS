@@ -41,6 +41,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
     });
     // Agregar nota al contenedor del div
     notes.appendChild(note);
+    setTimeout(() => {
+      note.classList.add("note--visible");
+    }, 10);
   }
 
   const updateNote = () => {
