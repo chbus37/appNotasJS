@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+.layout {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-color: #f0ecec;
+  padding: 3rem;
+}
+
+.layout__main {
+  width: 100%;
+}
+
+.main__container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main__btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ed4f4f;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.main__btn:hover {
+  background-color: #e42f2f;
+}
+
+.btn__icon {
+  font-size: 1.4rem;
+}
+
+.btn__text {
+  font-weight: 500;
+}
+
+.main__notes {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.notes__note {
+  width: calc(25% - 2rem);
+}
+
+.note__header {
+  color: white;
+  background-color: #ed4f4f;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.header__input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+.note__icon {
+  cursor: pointer;
+}
+
+.note__body {
+  width: 100%;
+  height: 40rem;
+  border-radius: 0 0 5px 5px;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 2rem;
+  font-weight: 500;
+  background-color: #ccc;
+}
